@@ -6,7 +6,7 @@ import TrafficLight from './TrafficLight';
 function App() {
   // track the following state with a few useState hooks:
   // lightColor should be a string that starts out as 'red'
-  const [lightColor, setLightColor] = useState();
+  const [lightColor, setLightColor] = useState('red');
   // lizardSize should be a number that starts out as 10
   const [lizardSize, setLizardSize] = useState(10);
   // alienSize should be a number that starts out as 10
