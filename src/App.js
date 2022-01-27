@@ -12,7 +12,7 @@ function App() {
   // alienSize should be a number that starts out as 10
   const [alienSize, setAlienSize] = useState(10);
   // traffic is complicated. It should be an array of strings that starts out as ['car', 'truck']
-  const [vehicleArray, setVehicleArray] = useState(['car', 'truck', 'bus', 'motorcycle']);
+  const [vehicleArray, setVehicleArray] = useState(['car', 'truck']);
 
   return (
     <div className="App">
